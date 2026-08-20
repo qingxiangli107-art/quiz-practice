@@ -9,6 +9,7 @@ const app = {
         currentPage: 'home',
         practiceFilter: 'all',
         practiceAnswers: {}, // { questionId: 'A' 或 ['A','B'] }
+        practiceSubmitted: new Set(), // 记录已提交的题目key
         testQuestions: [],   // 抽选的题目
         testAnswers: {},     // 考试答案
         testCurrentIndex: 0,
@@ -89,7 +90,7 @@ const app = {
         const key = this.getAnswerKey(q);
         const savedAnswer = this.state.practiceAnswers[key];
         const typeLabels = { single: '单选', multiple: '多选', judge: '判断', case: '案例' };
-        const isSubmitted = savedAnswer !== undefined;
+        const isSubmitted = this.state.practiceSubmitted.has(key);
         const isCorrect = isSubmitted ? this.checkAnswer(q, savedAnswer) : null;
 
         let optionsHtml = '';
@@ -179,7 +180,7 @@ const app = {
     },
 
     selectPracticeOption(key, letter, isMulti) {
-        if (this.state.practiceAnswers[key] !== undefined) return;
+        if (this.state.practiceSubmitted.has(key)) return;
 
         if (isMulti) {
             const current = this.state.practiceAnswers[key];
@@ -203,6 +204,7 @@ const app = {
             alert('请先选择一个答案');
             return;
         }
+        this.state.practiceSubmitted.add(key);
         this.savePracticeProgress();
         this.renderPracticeList();
 
@@ -245,19 +247,24 @@ const app = {
 
     savePracticeProgress() {
         localStorage.setItem('practiceAnswers', JSON.stringify(this.state.practiceAnswers));
+        localStorage.setItem('practiceSubmitted', JSON.stringify([...this.state.practiceSubmitted]));
     },
 
     loadPracticeProgress() {
         try {
             const saved = localStorage.getItem('practiceAnswers');
             if (saved) this.state.practiceAnswers = JSON.parse(saved);
+            const submitted = localStorage.getItem('practiceSubmitted');
+            if (submitted) this.state.practiceSubmitted = new Set(JSON.parse(submitted));
         } catch (e) { console.error('加载进度失败', e); }
     },
 
     resetPractice() {
         if (!confirm('确定要重置所有演练进度吗？此操作不可恢复。')) return;
         this.state.practiceAnswers = {};
+        this.state.practiceSubmitted = new Set();
         localStorage.removeItem('practiceAnswers');
+        localStorage.removeItem('practiceSubmitted');
         this.renderPracticeList();
     },
 
