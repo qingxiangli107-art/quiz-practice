@@ -1728,7 +1728,7 @@ const QUESTIONS = [
     "id": 11,
     "set": 2,
     "type": "single",
-    "question": "数据加工在商业智能",
+    "question": "数据加工在商业智能（BI）中的核心价值是什么",
     "options": {
       "A": "提供可直接用于决策的高质量数据",
       "B": "增加服务器数量",
