@@ -2472,7 +2472,7 @@ const QUESTIONS = [
     "id": 52,
     "set": 2,
     "type": "multiple",
-    "question": "以下哪些属于人工智能",
+    "question": "以下哪些属于人工智能的典型应用",
     "options": {
       "A": "自动驾驶汽车感知周围环境",
       "B": "电子表格求和功能",
@@ -2492,7 +2492,7 @@ const QUESTIONS = [
     "id": 53,
     "set": 2,
     "type": "multiple",
-    "question": "关于“智能体”",
+    "question": "关于“智能体”的描述,正确的有",
     "options": {
       "A": "智能体必须是一个物理机器人",
       "B": "智能体可以通过传感器感知环境，通过执行器影响环境",
@@ -2570,7 +2570,7 @@ const QUESTIONS = [
     "id": 57,
     "set": 2,
     "type": "multiple",
-    "question": "关于“智能体”与大语言模型",
+    "question": "关于“智能体”与大语言模型的关系,说法正确的有",
     "options": {
       "A": "LLM可以直接作为智能体的核心决策模块",
       "B": "使用LLM的智能体具备长期记忆和规划能力（若设计得当）",
