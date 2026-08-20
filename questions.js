@@ -585,7 +585,7 @@ const QUESTIONS = [
     "id": 36,
     "set": 1,
     "type": "multiple",
-    "question": "使用下面哪三种图表类型能更好地表示随时间（年、月、日）或类别变化的趋势（       ）",
+    "question": "使用下面哪三种图表类型能更好地表示随时间（年、月、日）或类别变化的趋势（       ）",
     "options": {
       "A": "饼图",
       "B": "折线图",
@@ -646,7 +646,7 @@ const QUESTIONS = [
     "id": 39,
     "set": 1,
     "type": "multiple",
-    "question": "可视化评测的方法有（     ）",
+    "question": "可视化评测的方法有（     ）",
     "options": {
       "A": "可用性测试",
       "B": "专家评估",
@@ -707,7 +707,7 @@ const QUESTIONS = [
     "id": 42,
     "set": 1,
     "type": "multiple",
-    "question": "可视化系统的交互延时指从用户操作的发生到系统返回结果所经过的时间，是决定交互有效性最重要的因素之一。延时的长短在很大程度上决定了一个可视化系统的可用性及用户体验。交互延时可以细分为多种形式，包括(     )",
+    "question": "可视化系统的交互延时指从用户操作的发生到系统返回结果所经过的时间，是决定交互有效性最重要的因素之一。延时的长短在很大程度上决定了一个可视化系统的可用性及用户体验。交互延时可以细分为多种形式，包括(     )",
     "options": {
       "A": "操作延时",
       "B": "页面渲染延时",
@@ -808,7 +808,7 @@ const QUESTIONS = [
     "id": 47,
     "set": 1,
     "type": "multiple",
-    "question": "文档类型的数据文件一般有（     ）",
+    "question": "文档类型的数据文件一般有（     ）",
     "options": {
       "A": "CSV文件",
       "B": "Excel文件",
@@ -849,7 +849,7 @@ const QUESTIONS = [
     "id": 49,
     "set": 1,
     "type": "multiple",
-    "question": "传统数据密集型行业积极探索和布局大数据应用的表现是（     ）",
+    "question": "传统数据密集型行业积极探索和布局大数据应用的表现是（     ）",
     "options": {
       "A": "投资入股互联网电商行业",
       "B": "打通多源跨域数据",
@@ -869,7 +869,7 @@ const QUESTIONS = [
     "id": 50,
     "set": 1,
     "type": "multiple",
-    "question": "下列哪些是数据分析及展示软件（     ）",
+    "question": "下列哪些是数据分析及展示软件（     ）",
     "options": {
       "A": "Tableau",
       "B": "Qlik View",
@@ -949,7 +949,7 @@ const QUESTIONS = [
     "id": 54,
     "set": 1,
     "type": "multiple",
-    "question": "数据再利用的意义在于（     ）",
+    "question": "数据再利用的意义在于（     ）",
     "options": {
       "A": "挖掘数据的潜在价值",
       "B": "实现数据重组的创新价值",
@@ -1048,7 +1048,7 @@ const QUESTIONS = [
     "id": 59,
     "set": 1,
     "type": "multiple",
-    "question": "K-Means优点有哪些（     ）",
+    "question": "K-Means优点有哪些（     ）",
     "options": {
       "A": "简单易于理解",
       "B": "时间复杂度低",
@@ -1094,7 +1094,7 @@ const QUESTIONS = [
       "A": "正确",
       "B": "错误"
     },
-    "answer": "×",
+    "answer": "B",
     "answer_multi": [],
     "score": 1,
     "analysis": ""
@@ -1108,7 +1108,7 @@ const QUESTIONS = [
       "A": "正确",
       "B": "错误"
     },
-    "answer": "×",
+    "answer": "B",
     "answer_multi": [],
     "score": 1,
     "analysis": ""
@@ -1122,7 +1122,7 @@ const QUESTIONS = [
       "A": "正确",
       "B": "错误"
     },
-    "answer": "√",
+    "answer": "A",
     "answer_multi": [],
     "score": 1,
     "analysis": ""
@@ -1136,7 +1136,7 @@ const QUESTIONS = [
       "A": "正确",
       "B": "错误"
     },
-    "answer": "×",
+    "answer": "B",
     "answer_multi": [],
     "score": 1,
     "analysis": ""
@@ -1150,7 +1150,7 @@ const QUESTIONS = [
       "A": "正确",
       "B": "错误"
     },
-    "answer": "×",
+    "answer": "B",
     "answer_multi": [],
     "score": 1,
     "analysis": ""
@@ -1164,7 +1164,7 @@ const QUESTIONS = [
       "A": "正确",
       "B": "错误"
     },
-    "answer": "√",
+    "answer": "A",
     "answer_multi": [],
     "score": 1,
     "analysis": ""
@@ -1178,7 +1178,7 @@ const QUESTIONS = [
       "A": "正确",
       "B": "错误"
     },
-    "answer": "×",
+    "answer": "B",
     "answer_multi": [],
     "score": 1,
     "analysis": ""
@@ -1192,7 +1192,7 @@ const QUESTIONS = [
       "A": "正确",
       "B": "错误"
     },
-    "answer": "×",
+    "answer": "B",
     "answer_multi": [],
     "score": 1,
     "analysis": ""
@@ -1206,7 +1206,7 @@ const QUESTIONS = [
       "A": "正确",
       "B": "错误"
     },
-    "answer": "√",
+    "answer": "A",
     "answer_multi": [],
     "score": 1,
     "analysis": ""
@@ -1220,7 +1220,7 @@ const QUESTIONS = [
       "A": "正确",
       "B": "错误"
     },
-    "answer": "√",
+    "answer": "A",
     "answer_multi": [],
     "score": 1,
     "analysis": ""
@@ -1234,7 +1234,7 @@ const QUESTIONS = [
       "A": "正确",
       "B": "错误"
     },
-    "answer": "√",
+    "answer": "A",
     "answer_multi": [],
     "score": 1,
     "analysis": ""
@@ -1248,7 +1248,7 @@ const QUESTIONS = [
       "A": "正确",
       "B": "错误"
     },
-    "answer": "√",
+    "answer": "A",
     "answer_multi": [],
     "score": 1,
     "analysis": ""
@@ -1262,7 +1262,7 @@ const QUESTIONS = [
       "A": "正确",
       "B": "错误"
     },
-    "answer": "×",
+    "answer": "B",
     "answer_multi": [],
     "score": 1,
     "analysis": ""
@@ -1276,7 +1276,7 @@ const QUESTIONS = [
       "A": "正确",
       "B": "错误"
     },
-    "answer": "√",
+    "answer": "A",
     "answer_multi": [],
     "score": 1,
     "analysis": ""
@@ -1290,7 +1290,7 @@ const QUESTIONS = [
       "A": "正确",
       "B": "错误"
     },
-    "answer": "√",
+    "answer": "A",
     "answer_multi": [],
     "score": 1,
     "analysis": ""
@@ -1304,7 +1304,7 @@ const QUESTIONS = [
       "A": "正确",
       "B": "错误"
     },
-    "answer": "√",
+    "answer": "A",
     "answer_multi": [],
     "score": 1,
     "analysis": ""
@@ -1318,7 +1318,7 @@ const QUESTIONS = [
       "A": "正确",
       "B": "错误"
     },
-    "answer": "√",
+    "answer": "A",
     "answer_multi": [],
     "score": 1,
     "analysis": ""
@@ -1332,7 +1332,7 @@ const QUESTIONS = [
       "A": "正确",
       "B": "错误"
     },
-    "answer": "×",
+    "answer": "B",
     "answer_multi": [],
     "score": 1,
     "analysis": ""
@@ -1346,7 +1346,7 @@ const QUESTIONS = [
       "A": "正确",
       "B": "错误"
     },
-    "answer": "×",
+    "answer": "B",
     "answer_multi": [],
     "score": 1,
     "analysis": ""
@@ -1360,7 +1360,7 @@ const QUESTIONS = [
       "A": "正确",
       "B": "错误"
     },
-    "answer": "×",
+    "answer": "B",
     "answer_multi": [],
     "score": 1,
     "analysis": ""
@@ -1369,7 +1369,7 @@ const QUESTIONS = [
     "id": 81,
     "set": 1,
     "type": "case",
-    "question": "某集团公司总经理在向全体员工总结公司本年度业绩、来年工作展望时，希望以图表形式清晰地展示出公司本年度五个业绩指标的结果，这五个业绩指标是：市场占有率、净利润增长率、营业额增长率、产品不良率、人才流失率，他最可能选择的两类图表是（     ）",
+    "question": "某集团公司总经理在向全体员工总结公司本年度业绩、来年工作展望时，希望以图表形式清晰地展示出公司本年度五个业绩指标的结果，这五个业绩指标是：市场占有率、净利润增长率、营业额增长率、产品不良率、人才流失率，他最可能选择的两类图表是（     ）",
     "options": {
       "A": "柱形图",
       "B": "地图",
@@ -1834,7 +1834,7 @@ const QUESTIONS = [
     "id": 19,
     "set": 2,
     "type": "single",
-    "question": "下列不属于常用的聚合方式的是（   ）",
+    "question": "下列不属于常用的聚合方式的是（   ）",
     "options": {
       "A": "平均值",
       "B": "最小值",
@@ -1850,7 +1850,7 @@ const QUESTIONS = [
     "id": 20,
     "set": 2,
     "type": "single",
-    "question": "下列关于“数据可视化”的说法中，正确的是（ ）",
+    "question": "下列关于“数据可视化”的说法中，正确的是（ ）",
     "options": {
       "A": "数据可视化没有标准答案，不同的商业案例、原始数据均可能影响可视化图表的选择，最为重要的影响因素是：你想以怎样的形式向汇报对象展示结果；",
       "B": "数据可视化有标准答案，不同的商业案例、原始数据只能选择对应的一种可视化图表；",
@@ -1866,7 +1866,7 @@ const QUESTIONS = [
     "id": 21,
     "set": 2,
     "type": "single",
-    "question": "关系数据库所谓的关系是指（   ）",
+    "question": "关系数据库所谓的关系是指（   ）",
     "options": {
       "A": "各记录中的数据彼此有一定关联",
       "B": "数据模型满足一定条件的二维表格式",
@@ -1882,7 +1882,7 @@ const QUESTIONS = [
     "id": 22,
     "set": 2,
     "type": "single",
-    "question": "在对抽取数据进行过滤筛选时，可以使用边角运算符进行过滤筛选。运算符“ !> ”的含义是（   ）",
+    "question": "在对抽取数据进行过滤筛选时，可以使用边角运算符进行过滤筛选。运算符“ !> ”的含义是（   ）",
     "options": {
       "A": "用于测试两个表达式彼此不相等的条件的运算符",
       "B": "用于测试一个表达式是否不大于另一个表达式的运算符",
@@ -1914,7 +1914,7 @@ const QUESTIONS = [
     "id": 24,
     "set": 2,
     "type": "single",
-    "question": "通过(  )工作流节点可以按照百分比随机从数据表中抽取部分数据。",
+    "question": "通过(  )工作流节点可以按照百分比随机从数据表中抽取部分数据。",
     "options": {
       "A": "抽样",
       "B": "转换",
@@ -1930,7 +1930,7 @@ const QUESTIONS = [
     "id": 25,
     "set": 2,
     "type": "single",
-    "question": "下列关于饼图缺点的说法中，错误的是（  ）",
+    "question": "下列关于饼图缺点的说法中，错误的是（  ）",
     "options": {
       "A": "当饼图中组成部分比例接近时，人眼很难准确判别；",
       "B": "数据项中不能有负值；",
@@ -1946,7 +1946,7 @@ const QUESTIONS = [
     "id": 26,
     "set": 2,
     "type": "single",
-    "question": "朴素贝叶斯是建立在（  ）基础上的一种数据挖掘算法",
+    "question": "朴素贝叶斯是建立在（  ）基础上的一种数据挖掘算法",
     "options": {
       "A": "线性变换",
       "B": "线性回归",
@@ -1994,7 +1994,7 @@ const QUESTIONS = [
     "id": 29,
     "set": 2,
     "type": "single",
-    "question": "某公司总经理在公司年会上，希望清楚地展示出公司本年度发展的关键词、以及公司经历的令人记忆深刻的大事件，他可以选择的图表是（  ）",
+    "question": "某公司总经理在公司年会上，希望清楚地展示出公司本年度发展的关键词、以及公司经历的令人记忆深刻的大事件，他可以选择的图表是（  ）",
     "options": {
       "A": "气泡图",
       "B": "面积图",
@@ -2066,7 +2066,7 @@ const QUESTIONS = [
     "id": 33,
     "set": 2,
     "type": "multiple",
-    "question": "数据库中的事务是特性包括（       ）",
+    "question": "数据库中的事务是特性包括（       ）",
     "options": {
       "A": "独立性",
       "B": "原子性",
@@ -2087,7 +2087,7 @@ const QUESTIONS = [
     "id": 34,
     "set": 2,
     "type": "multiple",
-    "question": "下列关于客户画像中的用户标签的说法，正确的有（        ）",
+    "question": "下列关于客户画像中的用户标签的说法，正确的有（        ）",
     "options": {
       "A": "对同一个用户，可以打上很多个标签",
       "B": "每个标签都指向用户的一类属性或行为",
@@ -2166,7 +2166,7 @@ const QUESTIONS = [
     "id": 38,
     "set": 2,
     "type": "multiple",
-    "question": "数据库软件有（      ）",
+    "question": "数据库软件有（      ）",
     "options": {
       "A": "Microsoft SQL Server",
       "B": "MySQL",
@@ -2206,7 +2206,7 @@ const QUESTIONS = [
     "id": 40,
     "set": 2,
     "type": "multiple",
-    "question": "脏指数据可能存在以下哪些问题？（       ）",
+    "question": "脏指数据可能存在以下哪些问题？（       ）",
     "options": {
       "A": "数据缺失",
       "B": "数据噪声",
@@ -2227,7 +2227,7 @@ const QUESTIONS = [
     "id": 41,
     "set": 2,
     "type": "multiple",
-    "question": "大数据技术开发人才最需要具备（      ）等核心知识",
+    "question": "大数据技术开发人才最需要具备（      ）等核心知识",
     "options": {
       "A": "数学与统计知识",
       "B": "计算机相关知识",
@@ -2246,7 +2246,7 @@ const QUESTIONS = [
     "id": 42,
     "set": 2,
     "type": "multiple",
-    "question": "聚类常用的距离有（       ）",
+    "question": "聚类常用的距离有（       ）",
     "options": {
       "A": "最短距离",
       "B": "最长距离",
@@ -2267,7 +2267,7 @@ const QUESTIONS = [
     "id": 43,
     "set": 2,
     "type": "multiple",
-    "question": "缺失值是指粗糙数据中由于缺少信息而造成的数据的聚类、分组、删失或截断。对于缺失值的处理方法包括（        ）",
+    "question": "缺失值是指粗糙数据中由于缺少信息而造成的数据的聚类、分组、删失或截断。对于缺失值的处理方法包括（        ）",
     "options": {
       "A": "复制数据",
       "B": "删除缺失值数据",
@@ -2308,7 +2308,7 @@ const QUESTIONS = [
     "id": 45,
     "set": 2,
     "type": "multiple",
-    "question": "下列关于柱形图优缺点的说法中，正确的有（      ）",
+    "question": "下列关于柱形图优缺点的说法中，正确的有（      ）",
     "options": {
       "A": "可以通过柱子的长短明显看出各组别之间数据的差异；",
       "B": "若柱形图的横轴为时间，则可以清晰地看出数据结果随时间的变化趋势；",
@@ -2329,7 +2329,7 @@ const QUESTIONS = [
     "id": 46,
     "set": 2,
     "type": "multiple",
-    "question": "重复数据产生的原因有（      ）",
+    "question": "重复数据产生的原因有（      ）",
     "options": {
       "A": "人为多次提交",
       "B": "数据集成时造成重复",
@@ -2350,7 +2350,7 @@ const QUESTIONS = [
     "id": 47,
     "set": 2,
     "type": "multiple",
-    "question": "大数据技术的基础包括（       ）",
+    "question": "大数据技术的基础包括（       ）",
     "options": {
       "A": "分布式文件系统",
       "B": "分布式并行计算",
@@ -2370,7 +2370,7 @@ const QUESTIONS = [
     "id": 48,
     "set": 2,
     "type": "multiple",
-    "question": "下列关于文本图的说法中，正确的有（      ）",
+    "question": "下列关于文本图的说法中，正确的有（      ）",
     "options": {
       "A": "文本图通常适用于需要展示关键词、突出重点的业务场景",
       "B": "可以通过为文本图中的文本添加颜色、设置大小等方式达到强调的作用",
@@ -2390,7 +2390,7 @@ const QUESTIONS = [
     "id": 49,
     "set": 2,
     "type": "multiple",
-    "question": "数据集中趋势在统计学中是指一组数据向某一中心值靠拢的程度，下面哪些统计值能表示数据的集中程度（      ）",
+    "question": "数据集中趋势在统计学中是指一组数据向某一中心值靠拢的程度，下面哪些统计值能表示数据的集中程度（      ）",
     "options": {
       "A": "平均值",
       "B": "中位数",
@@ -2410,7 +2410,7 @@ const QUESTIONS = [
     "id": 50,
     "set": 2,
     "type": "multiple",
-    "question": "定量变量就是通常所说的连续量，它们是由测量或计数、统计所得到的量，这些变量具有数值特征，以下属于定量变量的有（    ）",
+    "question": "定量变量就是通常所说的连续量，它们是由测量或计数、统计所得到的量，这些变量具有数值特征，以下属于定量变量的有（    ）",
     "options": {
       "A": "性别",
       "B": "长度",
@@ -2429,7 +2429,7 @@ const QUESTIONS = [
     "id": 51,
     "set": 2,
     "type": "multiple",
-    "question": "大数据处理流程可以概括为以下哪几步？（      ）",
+    "question": "大数据处理流程可以概括为以下哪几步？（      ）",
     "options": {
       "A": "数据采集",
       "B": "数据导入和预处理",
@@ -2633,7 +2633,7 @@ const QUESTIONS = [
       "A": "正确",
       "B": "错误"
     },
-    "answer": "×",
+    "answer": "B",
     "answer_multi": [],
     "score": 1,
     "analysis": ""
@@ -2647,7 +2647,7 @@ const QUESTIONS = [
       "A": "正确",
       "B": "错误"
     },
-    "answer": "√",
+    "answer": "A",
     "answer_multi": [],
     "score": 1,
     "analysis": ""
@@ -2661,7 +2661,7 @@ const QUESTIONS = [
       "A": "正确",
       "B": "错误"
     },
-    "answer": "×",
+    "answer": "B",
     "answer_multi": [],
     "score": 1,
     "analysis": ""
@@ -2675,7 +2675,7 @@ const QUESTIONS = [
       "A": "正确",
       "B": "错误"
     },
-    "answer": "√",
+    "answer": "A",
     "answer_multi": [],
     "score": 1,
     "analysis": ""
@@ -2689,7 +2689,7 @@ const QUESTIONS = [
       "A": "正确",
       "B": "错误"
     },
-    "answer": "√",
+    "answer": "A",
     "answer_multi": [],
     "score": 1,
     "analysis": ""
@@ -2703,7 +2703,7 @@ const QUESTIONS = [
       "A": "正确",
       "B": "错误"
     },
-    "answer": "×",
+    "answer": "B",
     "answer_multi": [],
     "score": 1,
     "analysis": ""
@@ -2717,7 +2717,7 @@ const QUESTIONS = [
       "A": "正确",
       "B": "错误"
     },
-    "answer": "×",
+    "answer": "B",
     "answer_multi": [],
     "score": 1,
     "analysis": ""
@@ -2731,7 +2731,7 @@ const QUESTIONS = [
       "A": "正确",
       "B": "错误"
     },
-    "answer": "√",
+    "answer": "A",
     "answer_multi": [],
     "score": 1,
     "analysis": ""
@@ -2745,7 +2745,7 @@ const QUESTIONS = [
       "A": "正确",
       "B": "错误"
     },
-    "answer": "×",
+    "answer": "B",
     "answer_multi": [],
     "score": 1,
     "analysis": ""
@@ -2759,7 +2759,7 @@ const QUESTIONS = [
       "A": "正确",
       "B": "错误"
     },
-    "answer": "√",
+    "answer": "A",
     "answer_multi": [],
     "score": 1,
     "analysis": ""
@@ -2773,7 +2773,7 @@ const QUESTIONS = [
       "A": "正确",
       "B": "错误"
     },
-    "answer": "×",
+    "answer": "B",
     "answer_multi": [],
     "score": 1,
     "analysis": ""
@@ -2787,7 +2787,7 @@ const QUESTIONS = [
       "A": "正确",
       "B": "错误"
     },
-    "answer": "×",
+    "answer": "B",
     "answer_multi": [],
     "score": 1,
     "analysis": ""
@@ -2801,7 +2801,7 @@ const QUESTIONS = [
       "A": "正确",
       "B": "错误"
     },
-    "answer": "√",
+    "answer": "A",
     "answer_multi": [],
     "score": 1,
     "analysis": ""
@@ -2815,7 +2815,7 @@ const QUESTIONS = [
       "A": "正确",
       "B": "错误"
     },
-    "answer": "×",
+    "answer": "B",
     "answer_multi": [],
     "score": 1,
     "analysis": ""
@@ -2829,7 +2829,7 @@ const QUESTIONS = [
       "A": "正确",
       "B": "错误"
     },
-    "answer": "×",
+    "answer": "B",
     "answer_multi": [],
     "score": 1,
     "analysis": ""
@@ -2843,7 +2843,7 @@ const QUESTIONS = [
       "A": "正确",
       "B": "错误"
     },
-    "answer": "×",
+    "answer": "B",
     "answer_multi": [],
     "score": 1,
     "analysis": ""
@@ -2857,7 +2857,7 @@ const QUESTIONS = [
       "A": "正确",
       "B": "错误"
     },
-    "answer": "×",
+    "answer": "B",
     "answer_multi": [],
     "score": 1,
     "analysis": ""
@@ -2871,7 +2871,7 @@ const QUESTIONS = [
       "A": "正确",
       "B": "错误"
     },
-    "answer": "×",
+    "answer": "B",
     "answer_multi": [],
     "score": 1,
     "analysis": ""
@@ -2885,7 +2885,7 @@ const QUESTIONS = [
       "A": "正确",
       "B": "错误"
     },
-    "answer": "√",
+    "answer": "A",
     "answer_multi": [],
     "score": 1,
     "analysis": ""
@@ -2899,7 +2899,7 @@ const QUESTIONS = [
       "A": "正确",
       "B": "错误"
     },
-    "answer": "√",
+    "answer": "A",
     "answer_multi": [],
     "score": 1,
     "analysis": ""
@@ -3119,7 +3119,7 @@ const QUESTIONS = [
     "id": 2,
     "set": 3,
     "type": "single",
-    "question": "下列关于热力点图的说法中，错误的是（ ）",
+    "question": "下列关于热力点图的说法中，错误的是（ ）",
     "options": {
       "A": "热力点图是指根据数据的结果、以不同热力色展示出数据大小的图表；",
       "B": "在热力点图中，颜色越热烈往往意味着数值越大；",
@@ -3135,7 +3135,7 @@ const QUESTIONS = [
     "id": 3,
     "set": 3,
     "type": "single",
-    "question": "聚合函数计数用于（  ）",
+    "question": "聚合函数计数用于（  ）",
     "options": {
       "A": "计算元组个数",
       "B": "计算属性的个数",
@@ -3327,7 +3327,7 @@ const QUESTIONS = [
     "id": 15,
     "set": 3,
     "type": "single",
-    "question": "在实际的问题中我们遇到的数据量往往是巨大的。为了得到满足条件的数据，我们必须要对数据进行（  ）",
+    "question": "在实际的问题中我们遇到的数据量往往是巨大的。为了得到满足条件的数据，我们必须要对数据进行（  ）",
     "options": {
       "A": "筛选",
       "B": "离散化",
@@ -3343,7 +3343,7 @@ const QUESTIONS = [
     "id": 16,
     "set": 3,
     "type": "single",
-    "question": "以下不属于数据库系统特点是的是（   ）",
+    "question": "以下不属于数据库系统特点是的是（   ）",
     "options": {
       "A": "数据冗余度高",
       "B": "数据共享",
@@ -3359,7 +3359,7 @@ const QUESTIONS = [
     "id": 17,
     "set": 3,
     "type": "single",
-    "question": "自行车用户信息表中收集了用户的各类信息，包括用户的出生日期及用户第一次购买自行车的日期。为了得到用户第一次购买自行车的年龄，应使用（ ）函数。",
+    "question": "自行车用户信息表中收集了用户的各类信息，包括用户的出生日期及用户第一次购买自行车的日期。为了得到用户第一次购买自行车的年龄，应使用（ ）函数。",
     "options": {
       "A": "日期差",
       "B": "获取时间一部分",
@@ -3375,7 +3375,7 @@ const QUESTIONS = [
     "id": 18,
     "set": 3,
     "type": "single",
-    "question": "以下哪个组件样式是在所有的可视化图表中普遍存在的？（  ）",
+    "question": "以下哪个组件样式是在所有的可视化图表中普遍存在的？（  ）",
     "options": {
       "A": "图例",
       "B": "轴线",
@@ -3391,7 +3391,7 @@ const QUESTIONS = [
     "id": 19,
     "set": 3,
     "type": "single",
-    "question": "下列关于文本图的说法中，错误的是（  ）",
+    "question": "下列关于文本图的说法中，错误的是（  ）",
     "options": {
       "A": "文本图不适合展示数据太少的数据集；",
       "B": "文本图不适用于展示无明显差异的数据集，因为无明显差异的数据集会使得出的文本图缺少关键词，无法带来突出感；",
@@ -3407,7 +3407,7 @@ const QUESTIONS = [
     "id": 20,
     "set": 3,
     "type": "single",
-    "question": "论据中，能够支撑“大数据无所不能”的观点的是（   ）",
+    "question": "论据中，能够支撑“大数据无所不能”的观点的是（   ）",
     "options": {
       "A": "互联网金融打破了传统的观念和行为",
       "B": "大数据存在泡沫",
@@ -3437,7 +3437,7 @@ const QUESTIONS = [
     "id": 22,
     "set": 3,
     "type": "single",
-    "question": "下列关于大数据的分析理念的说法中，错误的是（  ）",
+    "question": "下列关于大数据的分析理念的说法中，错误的是（  ）",
     "options": {
       "A": "在数据基础上倾向于全体数据而不是抽样数据",
       "B": "在分析方法上更注重相关分析而不是因果分析",
@@ -3453,7 +3453,7 @@ const QUESTIONS = [
     "id": 23,
     "set": 3,
     "type": "single",
-    "question": "以下说法正确的是：(   )",
+    "question": "以下说法正确的是：(   )",
     "options": {
       "A": "数据挖掘是通过分析每个数据，从少量数据中寻找其规律的技术",
       "B": "数据挖掘无法建立数学模型",
@@ -3469,7 +3469,7 @@ const QUESTIONS = [
     "id": 24,
     "set": 3,
     "type": "single",
-    "question": "下面哪一项反映数据的精细化程度，越细化的数据，价值越高 （  ）",
+    "question": "下面哪一项反映数据的精细化程度，越细化的数据，价值越高 （  ）",
     "options": {
       "A": "规模",
       "B": "活性",
@@ -3485,7 +3485,7 @@ const QUESTIONS = [
     "id": 25,
     "set": 3,
     "type": "single",
-    "question": "以下哪项不属于数据挖掘的内容？（   ）",
+    "question": "以下哪项不属于数据挖掘的内容？（   ）",
     "options": {
       "A": "补充与完善公路网名称",
       "B": "多维分析统计用户出行规律",
@@ -3501,7 +3501,7 @@ const QUESTIONS = [
     "id": 26,
     "set": 3,
     "type": "single",
-    "question": "按照涉及自变量的多少，可以将回归分析分为（  ）",
+    "question": "按照涉及自变量的多少，可以将回归分析分为（  ）",
     "options": {
       "A": "线性回归分析与非线性回归分析",
       "B": "综合回归分析",
@@ -3564,7 +3564,7 @@ const QUESTIONS = [
   {
     "id": 30,
     "set": 3,
-    "type": "multiple",
+    "type": "single",
     "question": "以下哪些属于人工智能的典型子领域？ (       )",
     "options": {
       "A": "机器学习",
@@ -4108,7 +4108,7 @@ const QUESTIONS = [
   {
     "id": 58,
     "set": 3,
-    "type": "judge",
+    "type": "multiple",
     "question": "数据可视化只在数据分析的最后阶段才有用。",
     "options": {
       "A": "正确",
@@ -4127,7 +4127,7 @@ const QUESTIONS = [
   {
     "id": 59,
     "set": 3,
-    "type": "judge",
+    "type": "multiple",
     "question": "关联规则中的“置信度”衡量规则前项出现时后项出现的概率。",
     "options": {
       "A": "正确",
@@ -4145,7 +4145,7 @@ const QUESTIONS = [
   {
     "id": 60,
     "set": 3,
-    "type": "judge",
+    "type": "multiple",
     "question": "K-means聚类对初始中心点不敏感，无论选择什么初始点最终结果都一样。",
     "options": {
       "A": "正确",
@@ -4169,7 +4169,7 @@ const QUESTIONS = [
       "A": "正确",
       "B": "错误"
     },
-    "answer": "×",
+    "answer": "B",
     "answer_multi": [],
     "score": 1,
     "analysis": ""
@@ -4183,7 +4183,7 @@ const QUESTIONS = [
       "A": "正确",
       "B": "错误"
     },
-    "answer": "√",
+    "answer": "A",
     "answer_multi": [],
     "score": 1,
     "analysis": ""
@@ -4197,7 +4197,7 @@ const QUESTIONS = [
       "A": "正确",
       "B": "错误"
     },
-    "answer": "×",
+    "answer": "B",
     "answer_multi": [],
     "score": 1,
     "analysis": ""
@@ -4211,7 +4211,7 @@ const QUESTIONS = [
       "A": "正确",
       "B": "错误"
     },
-    "answer": "×",
+    "answer": "B",
     "answer_multi": [],
     "score": 1,
     "analysis": ""
@@ -4225,7 +4225,7 @@ const QUESTIONS = [
       "A": "正确",
       "B": "错误"
     },
-    "answer": "×",
+    "answer": "B",
     "answer_multi": [],
     "score": 1,
     "analysis": ""
@@ -4239,7 +4239,7 @@ const QUESTIONS = [
       "A": "正确",
       "B": "错误"
     },
-    "answer": "√",
+    "answer": "A",
     "answer_multi": [],
     "score": 1,
     "analysis": ""
@@ -4253,7 +4253,7 @@ const QUESTIONS = [
       "A": "正确",
       "B": "错误"
     },
-    "answer": "√",
+    "answer": "A",
     "answer_multi": [],
     "score": 1,
     "analysis": ""
@@ -4267,7 +4267,7 @@ const QUESTIONS = [
       "A": "正确",
       "B": "错误"
     },
-    "answer": "×",
+    "answer": "B",
     "answer_multi": [],
     "score": 1,
     "analysis": ""
@@ -4281,7 +4281,7 @@ const QUESTIONS = [
       "A": "正确",
       "B": "错误"
     },
-    "answer": "×",
+    "answer": "B",
     "answer_multi": [],
     "score": 1,
     "analysis": ""
@@ -4295,7 +4295,7 @@ const QUESTIONS = [
       "A": "正确",
       "B": "错误"
     },
-    "answer": "√",
+    "answer": "A",
     "answer_multi": [],
     "score": 1,
     "analysis": ""
@@ -4309,7 +4309,7 @@ const QUESTIONS = [
       "A": "正确",
       "B": "错误"
     },
-    "answer": "√",
+    "answer": "A",
     "answer_multi": [],
     "score": 1,
     "analysis": ""
@@ -4323,7 +4323,7 @@ const QUESTIONS = [
       "A": "正确",
       "B": "错误"
     },
-    "answer": "×",
+    "answer": "B",
     "answer_multi": [],
     "score": 1,
     "analysis": ""
@@ -4337,7 +4337,7 @@ const QUESTIONS = [
       "A": "正确",
       "B": "错误"
     },
-    "answer": "√",
+    "answer": "A",
     "answer_multi": [],
     "score": 1,
     "analysis": ""
@@ -4351,7 +4351,7 @@ const QUESTIONS = [
       "A": "正确",
       "B": "错误"
     },
-    "answer": "×",
+    "answer": "B",
     "answer_multi": [],
     "score": 1,
     "analysis": ""
@@ -4365,7 +4365,7 @@ const QUESTIONS = [
       "A": "正确",
       "B": "错误"
     },
-    "answer": "×",
+    "answer": "B",
     "answer_multi": [],
     "score": 1,
     "analysis": ""
@@ -4379,7 +4379,7 @@ const QUESTIONS = [
       "A": "正确",
       "B": "错误"
     },
-    "answer": "×",
+    "answer": "B",
     "answer_multi": [],
     "score": 1,
     "analysis": ""
@@ -4393,7 +4393,7 @@ const QUESTIONS = [
       "A": "正确",
       "B": "错误"
     },
-    "answer": "×",
+    "answer": "B",
     "answer_multi": [],
     "score": 1,
     "analysis": ""
@@ -4401,14 +4401,14 @@ const QUESTIONS = [
   {
     "id": 78,
     "set": 3,
-    "type": "case",
+    "type": "judge",
     "question": "每个配送机器人需要感知环境（障碍物、路径）",
     "options": {
       "A": "调度系统不需要处理实时订单数据，只需静态路线规划",
       "B": "多个机器人之间可能发生冲突，需要协调机制",
       "C": "这种系统完全不需要历史数据，实时规划即可"
     },
-    "answer": "×",
+    "answer": "B",
     "answer_multi": [],
     "score": 2,
     "analysis": ""
@@ -4416,7 +4416,7 @@ const QUESTIONS = [
   {
     "id": 79,
     "set": 3,
-    "type": "case",
+    "type": "judge",
     "question": "某物流公司使用GPS和交通数据实时优化配送路线。以下正确的有(   )",
     "options": {
       "A": "该应用需要实时流数据处理",
@@ -4424,7 +4424,7 @@ const QUESTIONS = [
       "C": "路线优化只需要历史数据，不需要实时数据",
       "D": "多车协同调度属于多智能体系统"
     },
-    "answer": "√",
+    "answer": "A",
     "answer_multi": [],
     "score": 2,
     "analysis": ""
@@ -4432,14 +4432,14 @@ const QUESTIONS = [
   {
     "id": 80,
     "set": 3,
-    "type": "case",
+    "type": "judge",
     "question": "金融风控系统检测信用卡欺诈交易。以下正确的有 (       )",
     "options": {
       "A": "所有欺诈交易都只能由一种固定规则检测",
       "B": "异常检测算法可用于发现可疑交易",
       "C": "正负样本通常极度不平衡，需采用采样或加权方法"
     },
-    "answer": "×",
+    "answer": "B",
     "answer_multi": [],
     "score": 2,
     "analysis": ""
