@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>数据智能体应用赛道 - 知识赛题库</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <!-- 首页 -->
+        <div id="page-home" class="page active">
+            <header class="app-header">
+                <h1>数据智能体应用赛道</h1>
+                <p class="subtitle">知识赛题库演练系统</p>
+                <div class="stats-bar" id="home-stats"></div>
+            </header>
+            <main class="home-main">
+                <div class="mode-cards">
+                    <div class="mode-card" onclick="app.startPractice()">
+                        <div class="mode-icon">📚</div>
+                        <h2>演练模式</h2>
+                        <p>包含全部 <span id="total-count">0</span> 道题目</p>
+                        <p>逐题练习，即时反馈，答错显示解析</p>
+                        <button class="btn-primary">开始演练</button>
+                    </div>
+                    <div class="mode-card" onclick="app.startTest()">
+                        <div class="mode-icon">📝</div>
+                        <h2>测试模式</h2>
+                        <p>随机抽取 100 道题目</p>
+                        <p>模拟真实考试，限时120分钟</p>
+                        <button class="btn-primary">开始测试</button>
+                    </div>
+                </div>
+                <div class="history-section" id="history-section" style="display:none">
+                    <h3>历史成绩</h3>
+                    <div id="history-list"></div>
+                </div>
+            </main>
+        </div>
+
+        <!-- 演练模式 -->
+        <div id="page-practice" class="page">
+            <header class="practice-header">
+                <div class="practice-header-top">
+                    <button class="btn-back" onclick="app.goHome()">← 返回</button>
+                    <button class="btn-reset" onclick="app.resetPractice()">重置进度</button>
+                </div>
+                <h2>演练模式</h2>
+                <div class="filter-tabs">
+                    <button class="tab active" data-filter="all" onclick="app.filterPractice('all')">全部</button>
+                    <button class="tab" data-filter="single" onclick="app.filterPractice('single')">单选</button>
+                    <button class="tab" data-filter="multiple" onclick="app.filterPractice('multiple')">多选</button>
+                    <button class="tab" data-filter="judge" onclick="app.filterPractice('judge')">判断</button>
+                    <button class="tab" data-filter="case" onclick="app.filterPractice('case')">案例</button>
+                </div>
+                <div class="progress-bar">
+                    <div class="progress-fill" id="practice-progress"></div>
+                </div>
+                <p class="progress-text" id="practice-progress-text">0 / 0</p>
+            </header>
+            <main class="practice-main" id="practice-list"></main>
+        </div>
+
+        <!-- 测试模式 - 开始页 -->
+        <div id="page-test-start" class="page">
+            <div class="test-start-container">
+                <h2>模拟测试</h2>
+                <div class="test-rules">
+                    <p>本次测试将从题库中随机抽取 <strong>100</strong> 道题目</p>
+                    <p>考试时长 <strong>120</strong> 分钟</p>
+                    <p>包含单选题、多选题、判断题和案例分析题</p>
+                    <p>多选题和案例分析题漏选、错选均不得分</p>
+                </div>
+                <div class="test-buttons">
+                    <button class="btn-primary btn-large" onclick="app.beginTest()">开始考试</button>
+                    <button class="btn-secondary" onclick="app.goHome()">返回首页</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- 测试模式 - 考试页 -->
+        <div id="page-test-exam" class="page">
+            <header class="exam-header">
+                <div class="exam-info">
+                    <span id="exam-timer">120:00</span>
+                    <span id="exam-progress">1 / 100</span>
+                </div>
+                <div class="exam-nav" id="exam-nav"></div>
+                <button class="btn-submit" onclick="app.submitTest()">交卷</button>
+            </header>
+            <main class="exam-main" id="exam-question"></main>
+            <div class="exam-footer">
+                <button class="btn-nav" id="btn-prev" onclick="app.prevQuestion()">上一题</button>
+                <button class="btn-mark" id="btn-mark" onclick="app.toggleMark()">标记本题</button>
+                <button class="btn-nav" id="btn-next" onclick="app.nextQuestion()">下一题</button>
+            </div>
+        </div>
+
+        <!-- 测试模式 - 结果页 -->
+        <div id="page-test-result" class="page">
+            <div class="result-container">
+                <h2>考试结果</h2>
+                <div class="result-score">
+                    <div class="score-circle">
+                        <span id="result-score">0</span>
+                        <small>分</small>
+                    </div>
+                    <p id="result-rate">正确率 0%</p>
+                </div>
+                <div class="result-stats" id="result-stats"></div>
+                <div class="result-actions">
+                    <button class="btn-primary" onclick="app.reviewWrong()">查看错题</button>
+                    <button class="btn-secondary" onclick="app.startTest()">重新测试</button>
+                    <button class="btn-secondary" onclick="app.goHome()">返回首页</button>
+                </div>
+                <div class="wrong-list" id="wrong-list" style="display:none"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="questions.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
